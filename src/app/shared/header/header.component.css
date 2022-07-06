@@ -1,0 +1,29 @@
+a {
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  transition: 350ms;
+}
+
+.header-item {
+  margin: 5px;
+}
+
+.header-nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin-inline: 20vw;
+  background-color: transparent;
+}
+
+#main {
+  color: #00C4F0;
+}
+
+a:hover {
+  color: #00C4F0;
+}
