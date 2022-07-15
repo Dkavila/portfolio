@@ -8,13 +8,13 @@
       <div class="text">
         <p class="name">Derick Avila</p>
         <div class="line"></div>
-        <span>
-          <p class="job">Fullstack Web</p>
-          <p class="job">Developer</p>
-          <span class="shadow">
-            <p class="shadow-text">Fullstack Web</p>
-            <p class="shadow-text">Developer</p>
-          </span>
+        <span class="job">
+          <p class="job-text">Fullstack Web</p>
+          <p class="job-text">Developer</p>
+        </span>
+        <span class="shadow">
+          <p class="shadow-text">Fullstack Web</p>
+          <p class="shadow-text">Developer</p>
         </span>
         <p class="resume">
           Fullstack developer focused on creating Web applications
@@ -24,25 +24,35 @@
       </div>
       <div class="buttons">
         <div class="downloadButtons" >
-          <div class="downloadCV" (click)="downloadCV($event)">
-            <img src="/assets/cloud_down.svg"  >
-            <p class="text">Download CV</p>
-          </div>
-          <div class="downloadPortfolio">
-            <img src="/assets/circle_down.svg">
-            <p class="text">Portfolio</p>
-          </div>
+          <a href="https://drive.google.com/file/d/1XZv_Z1Y10dP24r0Exlsg-temhOfVhSGp/view?usp=sharing" target="_blank">
+            <div class="downloadCV">
+              <img src="/assets/cloud_down.svg"  >
+              <p class="text">Download CV</p>
+            </div>
+          </a>
+          <a href="https://github.com/Dkavila/portfolio" target="_blank">
+            <div class="downloadPortfolio">
+              <img src="/assets/circle_down.svg">
+              <p class="text">Portfolio</p>
+            </div>
+          </a>
         </div>
         <div class="socialButtons">
-          <div class="socialCircle">
-            <img src="/assets/instagram.svg">
-          </div>
-          <div class="socialCircle">
-            <img src="/assets/github.svg">
-          </div>
-          <div class="socialCircle">
-            <img src="/assets/linkedin.svg">
-          </div>
+          <a href="https://www.facebook.com/derickmavila" target="_blank">
+            <div class="socialCircle">
+              <img src="/assets/facebook.svg">
+            </div>
+          </a>
+          <a href="https://github.com/Dkavila" target="_blank">
+            <div class="socialCircle">
+              <img src="/assets/github.svg">
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/derick-avila/" target="_blank">
+            <div class="socialCircle">
+              <img src="/assets/linkedin.svg">
+            </div>
+          </a>
       </div>
 
       </div>

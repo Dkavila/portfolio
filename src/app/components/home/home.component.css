@@ -6,13 +6,18 @@
   background: linear-gradient(62deg, rgba(32,32,32,1) 50%, rgba(63,63,63,1) 50%, rgba(63,63,63,1) 100%);
 }
 
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
 .content {
-  display: flex;
   margin: 20px;
+  display: flex;
 }
 
 .circle-frame {
-  position: fixed;
+  position: absolute;
   z-index: 1;
   right: 10vw;
   top: 18vh;
@@ -38,10 +43,9 @@
 .left {
   min-width: 400px;
   position: relative;
-  align-items: center;
   max-width: 33%;
   left: 10vw;
-  top: 20vh;
+  top: 16vh;
   color: #ffffff;
   font-family: 'Rubik', sans-serif;
 }
@@ -56,19 +60,22 @@
 .job {
   position: relative;
   z-index: 1;
-  margin-top: 40px;
+}
+
+.job-text {
+  margin-top: 20px;
   font-size: 5rem;
 }
 
 .shadow {
-  position: relative;
-  top: -100px;
+  position: absolute;
+  top: 80px;
   left: 15px;
   z-index: 0;
 }
 
 .shadow-text {
-  margin-top: 40px;
+  margin-top: 20px;
   font-size: 5rem;
   color: #202020;
   opacity: 0.25;
@@ -88,10 +95,11 @@
 }
 
 .resume {
+  margin-top: 50px;
+  margin-bottom: 50px;
   color: #818080;
   position: relative;
   z-index: 1;
-  top: -70px;
   font-size: 2rem;
   max-width: 100%;
   font-family: 'Poppins', sans-serif;
@@ -109,9 +117,11 @@
 }
 
 .downloadCV {
-  height: fit-content;
+  align-items: center;
+  justify-content: center;
   margin-right: 80px;
   display: flex;
+  width: 150px;
 }
 
 .downloadCV:hover{
@@ -123,7 +133,6 @@
 .downloadCV .text{
   font-size: 1.5rem;
   padding-left: 10px;
-  padding-top: 12.5px;
 }
 
 .downloadPortfolio {
@@ -148,7 +157,6 @@
 
 .downloadPortfolio .text{
   padding-left: 20px;
-  padding-top: 10px;
   font-size: 2rem;
 }
 
@@ -203,4 +211,15 @@ nav {
     filter: drop-shadow(0px 0px 50px rgb(0, 208, 255));
   }
 }
-
+ @media only screen and (max-width: 1300px) {
+  .circle-frame {
+    width: 230px;
+    height: 230px;
+    top: 30vh;
+    right: 5vw;
+  }
+  .circle-frame img {
+    width: 300px;
+    height: 300px;
+  }
+ }

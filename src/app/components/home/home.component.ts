@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  downloadCV(event: any) : boolean {
+  downloadCV(event: MouseEvent) : boolean {
     console.log(event)
     return true;
   }
