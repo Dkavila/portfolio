@@ -1,27 +1,50 @@
-# Portfolio
+# Angular Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.
+<img src="https://i.ibb.co/M1mr571/Portfolio1.png">
 
-## Development server
+> Actually deployed into <a href="https://derickavila-portfolio.vercel.app/">Vercel</a>
+>
+> Prototype made with <a href="https://www.figma.com/proto/tzhoEvF3FgiG88pAeXXqJ9/Personal-Portfolio-Website-Community?node-id=7%3A2&scaling=min-zoom&page-id=7%3A2">Figma</a>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Adjusts and Upgrades
 
-## Code scaffolding
+This project is still under development and the nexts updates will release those tasks:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [x] Home
+- [ ] About
+- [ ] Jobs
+- [ ] Education
+- [ ] Contact
 
-## Build
+## 💻 Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Before you start make sure you have installed:
+* `NodeJs 18.4.0`
+* `Angular 14`
 
-## Running unit tests
+## 🚀 Installing Portfolio
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To install this project, follow this step-by-step:
 
-## Running end-to-end tests
+First of all you need to clone the project:
+```
+git clone https://github.com/Dkavila/portfolio.git
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Into the repository folder run the node command:
+```
+npm install
+```
 
-## Further help
+## ☕ Using Portfolio
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+To run Portfolio locally you need to execute the command
+
+```
+ng serve
+```
+
+Want to know more about Angular Projects deployment?
+https://angular.io/start/start-deployment
+
+[⬆ Back](#portfolio)<br>
